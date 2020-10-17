@@ -55,9 +55,9 @@
             </div>
           </div>
 
-          <!-- Controls (Superpower Fire/Extinguish)-->
+          <!-- Controls (Superpower Fire/Ice)-->
           <div id="fireControls" class="card">
-            <h4 class="card-header">Superpowers - Become Fire!</h4>
+            <h4 class="card-header">Superpowers - Become Fire or Ice!</h4>
             <div class="card-body">
               <div class="text-center">
                 <button class="btn btn-dark btn-lg normal-button">
@@ -66,8 +66,8 @@
                 <button class="btn btn-primary btn-lg fire-button">
                   <span class="fa fa-plus"></span> Become Fire
                 </button>
-                <button class="btn btn-danger btn-lg extinguish-button">
-                  <span class="fa fa-minus"></span> Extinguish
+                <button class="btn btn-danger btn-lg ice-button">
+                  <span class="fa fa-minus"></span> Become Ice
                 </button>
               </div>
             </div>
@@ -183,9 +183,9 @@
             $("#change-image").attr("src", "assets/fire.jpg");
           },
         });
-        $(".extinguish-button").on({
+        $(".ice-button").on({
           click: function () {
-            $("#change-image").attr("src", "assets/extinguish.jpg");
+            $("#change-image").attr("src", "assets/ice.jpg");
           },
         });
 
